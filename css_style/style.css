@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(194, 235, 97), #ff008c);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    backdrop-filter: blur(5px); /* Задайте желаемую степень размытия */
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    height: 280px;
+    width: 230px;
+    padding: 20px 35px;
+}
+
+.main-screen {
+   backdrop-filter: blur(50px); 
+   background: rgba(255, 255, 255, 0.75);
+   border: 1px solid rgb(51, 42, 42);
+   border-radius: 10px;
+   font-size: 30px;
+}
+.wrapper section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; 
+}
+
+.wrapper button {
+    padding: 10px 15px;
+    margin: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #faf9f9;
+    color: #060101;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wrapper .button-result {
+    background-color: rgba(0, 255, 255, 0.585);
+    border-radius: 10px;
+}
+
